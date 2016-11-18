@@ -1,0 +1,1 @@
+cscript C:\Users\ShioyakenPC\Desktop\enPiT\execMacro.vbs "C:\Users\ShioyakenPC\Desktop\enPiT\ÇŸÇµÇ¢ÉAÉsÅ[Éã.xlsm" OpenURL

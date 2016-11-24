@@ -1,0 +1,1 @@
+cscript %~dp0../vbs/execMacro.vbs "%~dp0../excel/ÇŸÇµÇ¢ÉAÉsÅ[Éã.xlsm" OpenURL

@@ -1,1 +1,0 @@
-cscript C:\Lecture\enPiT\pbl\pbl_f\execMacro.vbs "C:\Lecture\enPiT\pbl\pbl_f\ÇŸÇµÇ¢ÉAÉsÅ[Éã.xlsm" OpenURL

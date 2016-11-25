@@ -10,7 +10,8 @@ body {
 /* header */
 #header {
   font-size: 40px;
-	padding: 30px 100px;
+  font-weight: bold;
+	padding: 20px 100px;
   color: #fff;
 	background-color: rgba(100,120,255,1);
 }
@@ -23,7 +24,7 @@ body {
 }
 
 #buttons {
-  text-align:center;
+  text-align: center;
 }
 
 #buttons button {

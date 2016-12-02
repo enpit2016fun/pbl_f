@@ -51,7 +51,7 @@ function get_count($file) {
 	<div id="header">IBY -I'm Begging You!-</div>
 	<article>
 		<section>
-			<p><iframe src="https://onedrive.live.com/embed?cid=43C211A1CBC7933E&resid=43C211A1CBC7933E%21409&authkey=ANNHj_cxt2BTx1k&em=2" width="600" height="400" frameborder="0" scrolling="no"></iframe></p>
+			<p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQO1WySCYsB8cecHi60ms71c6ecn8NIABJnjcr8gjSskwTiiozNttfPhHq6kjLBYIdRw66eq2fGQcjp/embed?start=false&loop=false&delayms=3000" frameborder="0" width="600" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 			<div class="btn_area">
 				<p class="ico_heart vote_01"><?= get_count('vote_01') ?></p>
 				<p class="btn_vote" id="vote_01"></p>
@@ -65,13 +65,14 @@ function get_count($file) {
 			</div>
 		</section> -->
 		<section>
-			<p><iframe src="https://onedrive.live.com/embed?cid=43C211A1CBC7933E&resid=43C211A1CBC7933E%21409&authkey=ANNHj_cxt2BTx1k&em=2" width="600" height="400" frameborder="0" scrolling="no"></iframe></p>
+			<p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQO1WySCYsB8cecHi60ms71c6ecn8NIABJnjcr8gjSskwTiiozNttfPhHq6kjLBYIdRw66eq2fGQcjp/embed?start=false&loop=false&delayms=3000" frameborder="0" width="600" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 			<div class="btn_area">
 				<p class="ico_heart vote_02"><?= get_count('vote_02') ?></p>
 				<p class="btn_vote" id="vote_02"></p>
 			</div>
 		</section>
-		<a href="index.html">BACK</a>
+		<a id="back" href="index.html">BACK</a>
 	</article>
+	<div id="footer"><p>-Team Kinty-</p></div>
 </body>
 </html>

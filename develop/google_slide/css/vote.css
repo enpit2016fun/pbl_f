@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-	height: 160%;
+	margin-bottom: 60px;
 }
 
 article {
@@ -10,8 +10,11 @@ article {
 }
 
 section {
-	margin-bottom: 20px;
 	padding: 10px;
+}
+
+iframe {
+	margin-bottom: 10px;
 }
 
 .btn_area {
@@ -22,7 +25,7 @@ section {
 .btn_vote {
 	position: absolute;
 	right: 0;
-	bottom: -20px;
+	bottom: -5px;
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
@@ -41,4 +44,9 @@ section {
 	padding-left: 25px;
 	background: url(../img/heart2.svg) no-repeat left center;
 	background-size: 20px 20px;
+}
+
+#back {
+	font-size: 20px;
+	padding-left: 10px;
 }

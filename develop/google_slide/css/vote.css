@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+	height: 160%;
+}
+
+article {
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+section {
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.btn_area {
+	position: relative;
+	height: 30px;
+}
+
+.btn_vote {
+	position: absolute;
+	right: 0;
+	bottom: -20px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background: url(../img/heart1.svg) no-repeat center center;
+	background-size: 30px 30px;
+	transition: all 0.1s linear;
+}
+
+.btn_vote.on {
+	background: url(../img/heart2.svg) no-repeat center center;
+	background-size: 30px 30px;
+}
+
+.ico_heart {
+	font-size: 20px;
+	padding-left: 25px;
+	background: url(../img/heart2.svg) no-repeat left center;
+	background-size: 20px 20px;
+}

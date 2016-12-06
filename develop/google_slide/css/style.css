@@ -17,9 +17,8 @@ body {
 #header {
   font-size: 40px;
   font-weight: bold;
-  padding: 20px 100px;
-  color: #fff;
-  background-color: rgba(100,120,255,1);
+  padding: 20px 50px;
+  background-color: #DCDCDC;
 }
 /* header */
 
@@ -32,53 +31,89 @@ body {
   padding: 10px 0;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
-  background-color: rgba(100,120,255,1);
+  background-color: #DCDCDC;
 }
 /* footer */
 
+#intro {
+  font-size: 20px;
+  margin-top: 25px;
+  padding-left: 80px;
+}
+
 /* main */
 #main {
-  width: 100%;
-  margin: 10px auto;
+  width: 700px;
+  height: 330px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
 }
 
-#buttons1, #buttons2, #buttons3 {
+#question {
+  width: 300px;
+  height: 330px;
+  float: left;
+  position: relative;
+}
+
+#arrow {
+  width: 100px;
+  height: 330px;
+  float: left;
+  position: relative;
+}
+
+#img_arrow {
+  position: absolute;
+  top: 140px;
+  left: 40px;
+}
+
+#make {
+  width: 300px;
+  height: 330px;
+  float: right;
+  position: relative;
+}
+
+#main p {
+  position: absolute;
+  font-size: 28px;
   text-align: center;
+	right: 0;
+  top: 0;
+	left: 0;
 }
 
-#buttons1 button {
-  font-size: 1.4em;
+.buttons {
+  position: absolute;
+  text-align: center;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+button {
+  font-size: 20px;
   font-weight: bold;
-  padding: 10px 30px;
-  margin: 30px 10px 0 10px;
-  background-color: #248;
+  padding: 5px 10px;
+  background-color: #000099;
   color: #fff;
   border-style: none;
 }
 
-#buttons2 button {
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 10px 30px;
-  margin: 50px 80px 0 80px;
-  background-color: #248;
-  color: #fff;
-  border-style: none;
+#intro button {
+  font-size: 16px;
+  padding: 3px;
 }
 
-#buttons3 button {
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 10px 30px;
-  margin: 50px 80px 0 80px;
-  background-color: #248;
-  color: #fff;
-  border-style: none;
+#question button, #make button, #right button {
+  margin-bottom: 15px;
 }
 
-#buttons1 button:hover, #buttons2 button:hover, #buttons3 button:hover {
-  background-color: #24d;
-  color: #fff;
+button:hover {
+  background-color: #0000FF;
 }
+
 /* main */

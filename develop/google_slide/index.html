@@ -11,18 +11,32 @@
 <body>
 	<div id="header">IBY -I'm Begging You!-</div>
 
+	<div id="intro">
+		<p>
+			質問に答えたあとに「作成」を押すとスライドが生成されます。
+			<button type="button" onclick="location.href='index.php'">他の人が作ったスライドを見る</button>
+			<button type="button" onclick="window.open('https://docs.google.com/presentation/u/0/')">過去に作ったスライドを見る</button>
+		</p>
+	</div>
+
 	<div id="main">
-		<div id="buttons1">
-			<button id="respond" type="button" onclick="window.open('https://goo.gl/I2y4mb')">子供向けアンケートに回答する</button>
-			<button id="respond" type="button" onclick="window.open('https://goo.gl/pbAkPL')">大人向けアンケートに回答する</button>
+		<div id="question">
+			<p>質問</p>
+			<img src="img/128257.png" width="300" height="300" alt="question">
+			<div class="buttons">
+				<button type="button" onclick="window.open('https://goo.gl/I2y4mb')">子供向け</button>
+				<button type="button" onclick="window.open('https://goo.gl/pbAkPL')">大人向け</button>
+			</div>
 		</div>
-		<div id="buttons2">
-			<button id="make" type="button">スライドを作る</button>
-			<!-- <button id="look" type="button">スライドを見る</button> -->
-			<button id="look" type="button" onclick="window.open('https://goo.gl/OdFUC0')">スライドを見る</button>
+		<div id="arrow">
+			<img id="img_arrow" src="img/arrow.png" width="20px" height="25px" alt="arrow">
 		</div>
-		<div id="buttons3">
-			<button id="make" type="button" onclick="location.href='index.php'">他の人が作ったスライドを見る</button>
+		<div id="make">
+			<p>スライドを作る</p>
+			<img src="img/129129.png" width="300" height="300" alt="file">
+			<div class="buttons">
+				<button type="button" onclick="window.open('https://goo.gl/OdFUC0')">作成</button>
+			</div>
 		</div>
 	</div>
 
